@@ -1,2 +1,17 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+Problem:
+Generate all consecutive substrings of a string in order.
+
+Solution:
+Use two nested loops. Outer loop selects the start index, inner loop builds substrings
+by adding one character at a time and stores them in an array.
+
+Algorithm Type:
+nested loop traversal.
+
+Time Complexity:
+O(n²) – two nested loops over the string.
+
+Space Complexity:
+O(n²) – storing all substrings.
